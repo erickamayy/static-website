@@ -1,6 +1,7 @@
 body {
-	background-color: crimson;
+	background-color: peachpuff;
 }
-h1,h2 {
+h1,h2,p {
 	color: orange;
+	text-align: center;
 }
