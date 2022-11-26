@@ -11,3 +11,8 @@ p {
 p {
   color: whitesmoke;
 }
+
+#my-avatar {
+  width: 150px;
+  border-radius: 50%;
+}
