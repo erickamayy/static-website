@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Kaushan+Script&display=swap');
 body {
-	background-color: peachpuff;
+    background-color: peachpuff;
+    font-family: "Bree Serif", serif;
 }
 h1,h2,p {
 	color: orange;
 	text-align: center;
+}
+#my-avatar {
+	width: 150px;
+	border-radius: 10%;
+}
+#content {
+	text-align: center;
+}
+#my-name {
+	font-family: 'Kaushan Script', cursive;
 }
