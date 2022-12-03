@@ -1,18 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Kaushan+Script&display=swap");
 
+/* CSS reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: black;
+  background-color: #8bbccc;
   font-family: "Bree Serif", serif;
-}
-
-h1,
-h2,
-p {
-  color: whitesmoke;
-}
-
-p {
-  color: whitesmoke;
+  color: #000000;
 }
 
 #my-avatar {
@@ -26,4 +24,5 @@ p {
 
 #my-name {
   font-family: "Kaushan Script", cursive;
+  color: #5c2e7e;
 }
