@@ -82,12 +82,12 @@ footer a:first-child {
 
 #hero-banner {
 	background: linear-gradient(150deg, lightblue, peachpuff, yellow);
-	padding-top: 16px;
-	padding-bottom: 16px;
 }
 #hero-banner > div {
-	width: 50%;
-	margin: 0 auto;
+	width: 100vw;
+	display: flex;
+	column-gap: 16px;
+	padding: 16px;
 }
 #hero-banner > div > div {
 	display: inline-block;
@@ -95,6 +95,12 @@ footer a:first-child {
 #hero-banner h1,
 #hero-banner h2 {
 	color: black;
+}
+#hero-banner h1 {
+	font-size: 1.1rem;
+}
+#hero-banner h2 {
+	font-size: 1.1rem;
 }
 h3 {
 	text-align: center;
